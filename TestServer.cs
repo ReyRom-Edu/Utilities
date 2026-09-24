@@ -1,6 +1,7 @@
 #!/usr/bin/env dotnet
 #:sdk Microsoft.NET.Sdk.Web
 #:property PublishAot=false
+#:package System.Resources.Extensions@10.0.12
 
 // .NET SDK 10: dotnet run --file TestServer.cs
 // Параметры: dotnet run --file TestServer.cs -- --port=8081 --delay-ms=5000
